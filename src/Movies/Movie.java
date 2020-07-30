@@ -47,6 +47,7 @@ public class Movie {
     public String getDuration() { return duration; }
 
 
+
 }
 
 
