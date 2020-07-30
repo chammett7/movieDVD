@@ -33,31 +33,31 @@ The opening page is presented below:
 * If option 1 is chosen in the main menu you will be directed to the staff login.
 * Staff login details are the same for every staff member where the username = "staff" and the password = "today123"
 * If login details are incorrect a suitable error message is provided and you redirected back to the main menu.
-![Staff Menu]()
+![Staff Menu](https://github.com/chammett7/movieDVD/blob/master/screenShots/StaffMenu.jpg)
 * If a choice is typed that is not in the menu a proper error message is provided:
-![Not Menu Item]()
+![Not Menu Item](https://github.com/chammett7/movieDVD/blob/master/screenShots/notMenuItem.jpg)
 #### Add New Movie DVD (option 1)
 * Staff members can add new movie DVDs to the system through option 1 which is presented as follows:
-![Add New Movie]()
+![Add New Movie](https://github.com/chammett7/movieDVD/blob/master/screenShots/addNewMovie.jpg)
 * After entering the new movie DVD they will be sent back to the staff menu.
 #### Remove Movie DVD (option 2)
 * Staff members can remove movies DVDs from the system through option 2 
 which is presented as follows:
-![Remove Movie]()
+![Remove Movie](https://github.com/chammett7/movieDVD/blob/master/screenShots/removeMovie.jpg)
 * After removing the movie DVD they will be sent back to the staff menu.
-#### Registering New MEMBER (option 3)
+#### Register New Member (option 3)
 * Staff members can register new members through option 3 which is presented as follows: 
-![Register New Member]()
+![Register New Member](https://github.com/chammett7/movieDVD/blob/master/screenShots/registerNewMember.jpg)
 * After registering a new member they will be sent back to the staff menu.
 #### Finding Registered Member by Phone Number (option 4)
 * Staff members can look up a registered member via their phone number. Option 4 is 
 presented as follows: 
-![Find Member by Phone]()
+![Find Member by Phone](https://github.com/chammett7/movieDVD/blob/master/screenShots/findMemPhone.jpg)
 * If the phone number does not exist in the system a suitable error message is provided.
 #### Back to Main Menu (option 0)
 * Option 0 is chosen when the staff member is ready to logout of the system. 
 *Option 0 is presented as follows: 
-![Back to Main]()
+![Back to Main](https://github.com/chammett7/movieDVD/blob/master/screenShots/backToMain.jpg)
 
 ### Member Menu
 
