@@ -1,42 +1,42 @@
 # movieDVD
 ## Introduction 
 MovieDVD is a console based software application developed for a 
-community library to mange its DVDs. 
-* In order to borrow a movie the user must be a member. 
-* To become a member a staff member must register you in the system. 
+community library to mange its DVDs. The program was designed to satisfy the following 
+guidelines: 
+* In order to borrow a movie the user must be a registered member. 
+* To become a registered member a staff member must input the user in the system. 
 * Members are registered by their name, phone number and address. 
 * Movies are categorized by title, director, starring, genre, duration, release date, 
 and classification (G, PG, R, MA+). 
 * The community library may have multiple DVDs of the same movie. 
 * A registered member can borrow up to 10 DVDs at one time; however, they can not borrow more than one 
 copy of the same movie. 
-* When a member borrows a movie DVD the DVD is added to the members 
+* When a registered member borrows a movie DVD the DVD is added to the members 
 account. 
-* It is assumed that all members names and movie titles are unique. 
+* It is assumed that all registered members names and all movie titles are unique. 
 
 
 ## Development 
 ### 1) Movie DVDs
-* A class called 'Movie' was implemented where each DVD is represented as an object of the class Movie. 
-* A class called 'MovieCollection' was implemented to represent and sort through the collection DVDs. 
+* A class 'Movie' was implemented to represent each DVD as an object of the class Movie. 
+* A class 'MovieCollection' was implemented to represent and sort through the collection DVDs. 
 * 'MovieCollection' uses a binary search tree to store and traverse through the DVDs.
 
 ### 2) Members 
-* A class called 'Member' was implemented where each library member is represented as an object of the class Member. 
-* A class called 'MemberCollection' was implemented to represent and sort through the members. 
+* A class 'Member' was implemented to represent each registered member as an object of the class Member. 
+* A class 'MemberCollection' was implemented to represent and sort through the collection of registered members. 
 * 'MemberCollection' uses an array to store its members.
-
-## Run Instructions
-* To start up the community library run the main method inside the MenuHandler. 
 
 
 ## Functionality and Testing
+### Run Instructions
+* To start up the community library run the main method inside the MenuHandler. 
 
 ### Limitations 
 Due to the console based nature of this program it has no ability to save information 
-into memory after run time is complete. Because of this major limitation the only way 
+into memory after the application is terminated. Because of this major limitation the only way 
 to view the functionality of the program is to run the program, login to the staff menu, and input all 
-movies and members. Then proceed to the member menu and login as the member created in the staff menu. 
+movies and members. 
 
 
 ### Main Menu 
@@ -45,7 +45,7 @@ movies and members. Then proceed to the member menu and login as the member crea
 * Within the main menu the user is prompted with two options.
 * The option chosen, 1 for staff login, or 2 for member login, determines how the application will interact
 with the user. 
-* The opening page of the application is presented below: 
+* The opening page of the application is presented as follows: 
 ![Main Menu](https://github.com/chammett7/movieDVD/blob/master/screenShots/mainMenu.jpg)
 
 * If a choice is typed that is not in the menu a proper error message is provided:
@@ -78,15 +78,16 @@ from the list of movies.
 
 
 #### Register New Member (option 3)
-* Staff members can register new members through option 3. 
+* Staff members can register new members into the system via option 3. 
 * After registering a new member the user will be sent back to the staff menu and the new member will be added to the system.
 * Option 3 is presented as follows: 
 ![Register New Member](https://github.com/chammett7/movieDVD/blob/master/screenShots/registerNewMember.jpg)
 
 
-#### Finding Registered Member by Phone Number (option 4)
-* Staff members can look up a registered member via their phone number through option 4. 
-* If the phone number searched for does not exist in the system a suitable error message is provided.
+#### Finding Registered Member's Phone Number (option 4)
+* Staff members can look up a registered member's phone number through option 4. 
+* To find a users phone number the staff member is prompted to enter the users full name. 
+* If the member searched for does not exist in the system a suitable error message is provided.
 * Option 4 is presented as follows: 
 ![Find Member by Phone](https://github.com/chammett7/movieDVD/blob/master/screenShots/findMemPhone.jpg)
 
@@ -102,23 +103,23 @@ from the list of movies.
 * Once a member is created login using details provided when member was registered in staff menu.
 * If the username and password entered are invalid you will be directed back to the main menu.
 * The member login appears as follows: 
-![Member Login]()
+![Member Login](https://github.com/chammett7/movieDVD/blob/master/screenShots/memberLogin.jpg)
 
 
 #### Display all Movies (option 1)
 * Members can view all movies in the system through option 1. 
 * IMPORTANT: movies must be entered in staff menu during run time.
 * Option 1 is presented as follows: 
-![Display all Movies]()
+![Display all Movies](https://github.com/chammett7/movieDVD/blob/master/screenShots/displayAllMovies.jpg)
 
 #### Borrow Movie (option 2)
 * Members can borrow a movie via option 2.
 * To borrow a movie the user will enter the name of the movie they would like to borrow. 
 * Option 2 is presented as follows: 
-![Borrow Movie]()
+![Borrow Movie](https://github.com/chammett7/movieDVD/blob/master/screenShots/borrowMovie.jpg)
 * If the title of the movie entered is not in the system a suitable error message is provided.
 * An example of this error message is presented as follows: 
-![Error Message]()
+![Error Message](https://github.com/chammett7/movieDVD/blob/master/screenShots/errorMessage.jpg)
 
 
 #### Return Movie (option 3)
@@ -126,23 +127,27 @@ from the list of movies.
 * If the movie entered to return is not in the members list of borrowed 
 movies a suitable error message is provided. 
 * Option 3 is presented as follows: 
-![Return Movie]()
+![Return Movie](https://github.com/chammett7/movieDVD/blob/master/screenShots/returnMovie.jpg)
 
 #### List Current Borrowed Movies (option 4)
 * A member can view their current borrowed movies via option 4. 
 * Note that this action was preformed before option 3 in the screenshots
 provided so the movie has not been removed from the members list
 * Option 4 before the member returns the movie is presented as follows: 
-![List Current Borrowed Movies 1]()
+![List Current Borrowed Movies 1](https://github.com/chammett7/movieDVD/blob/master/screenShots/ListBorrowed1.jpg)
 * Option 4 after the movie is returned is presented as follows: 
-![List Current Borrowed Movies 2]()
+![List Current Borrowed Movies 2](https://github.com/chammett7/movieDVD/blob/master/screenShots/ListCurrentBorrowed2.jpg)
 
 #### Display the Top 10 Most Borrowed Movies (option 5)
 * A member can display the top 10 most borrowed movies in the system via option 5.
 * Each movie is categorized by its borrowed count. Borrowed count is an attribute of each movie object. The algorithm used 
 to complete this task is outlined below. 
 * Option 5 is presented as follows: 
-![Top 10 Most Borrowed]()
+![Top 10 Most Borrowed](https://github.com/chammett7/movieDVD/blob/master/screenShots/top10Borrowed.jpg)
+
+#### Back to Main Menu (option 0)
+* A member can logout of the system via option 0.
+* Option 0 will send the user back to the main menu. 
 
 ### Algorithm Used to Display the Top 10 Most Borrowed Movies
 In order to display the top 10 most borrowed movies I first traversed over
