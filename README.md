@@ -27,5 +27,7 @@ account. It is assumed that all members names and movie titles are unique.
 The application was created for both staff and registered members. Upon start-up the user is 
 presented with a main menu. To start up the community library run the main method inside the MenuHandler class. 
 The opening page is presented below: 
+![Main Menu](https://github.com/chammett7/movieDVD/blob/master/screenShot/mainMenu.jpg)
+
 
 
