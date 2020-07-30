@@ -22,12 +22,46 @@ account. It is assumed that all members names and movie titles are unique.
 * A class called 'MemberCollection' was implemented to represent and sort through the DVDs. 
 * MemberCollection uses an array to store its members.
 
-## Functionality 
-#### 1) Login 
+## Functionality and Testing
+### Login 
 The application was created for both staff and registered members. Upon start-up the user is 
 presented with a main menu. To start up the community library run the main method inside the MenuHandler class. 
 The opening page is presented below: 
-![Main Menu](https://github.com/chammett7/movieDVD/blob/master/screenShot/mainMenu.jpg)
+![Main Menu](https://github.com/chammett7/movieDVD/blob/master/screenShots/mainMenu.jpg)
+
+### Staff Menu 
+* If option 1 is chosen in the main menu you will be directed to the staff login.
+* Staff login details are the same for every staff member where the username = "staff" and the password = "today123"
+* If login details are incorrect a suitable error message is provided and you redirected back to the main menu.
+![Staff Menu]()
+* If a choice is typed that is not in the menu a proper error message is provided:
+![Not Menu Item]()
+#### Add New Movie DVD (option 1)
+* Staff members can add new movie DVDs to the system through option 1 which is presented as follows:
+![Add New Movie]()
+* After entering the new movie DVD they will be sent back to the staff menu.
+#### Remove Movie DVD (option 2)
+* Staff members can remove movies DVDs from the system through option 2 
+which is presented as follows:
+![Remove Movie]()
+* After removing the movie DVD they will be sent back to the staff menu.
+#### Registering New MEMBER (option 3)
+* Staff members can register new members through option 3 which is presented as follows: 
+![Register New Member]()
+* After registering a new member they will be sent back to the staff menu.
+#### Finding Registered Member by Phone Number (option 4)
+* Staff members can look up a registered member via their phone number. Option 4 is 
+presented as follows: 
+![Find Member by Phone]()
+* If the phone number does not exist in the system a suitable error message is provided.
+#### Back to Main Menu (option 0)
+* Option 0 is chosen when the staff member is ready to logout of the system. 
+*Option 0 is presented as follows: 
+![Back to Main]()
+
+### Member Menu
+
+
 
 
 
