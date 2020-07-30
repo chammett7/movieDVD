@@ -19,7 +19,7 @@ public class Movie {
 
 
     public Movie(String title, String director, String starring, String genre, String classification,
-                 String releaseDate, String duration) {
+                 String releaseDate, String duration, int borrowedCount) {
         this.title = title;
         this.director = director;
         this.starring = starring;
