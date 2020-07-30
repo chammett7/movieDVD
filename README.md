@@ -109,12 +109,13 @@ from the list of movies.
 #### Display all Movies (option 1)
 * Members can view all movies in the system through option 1. 
 * IMPORTANT: movies must be entered in staff menu during run time.
+* Movies are displayed in alphabetical order.
 * Option 1 is presented as follows: 
 ![Display all Movies](https://github.com/chammett7/movieDVD/blob/master/screenShots/displayAllMovies.jpg)
 
 #### Borrow Movie (option 2)
 * Members can borrow a movie via option 2.
-* To borrow a movie the user will enter the name of the movie they would like to borrow. 
+* To borrow a movie the user will need to enter the name of the movie they would like to borrow. 
 * Option 2 is presented as follows: 
 ![Borrow Movie](https://github.com/chammett7/movieDVD/blob/master/screenShots/borrowMovie.jpg)
 * If the title of the movie entered is not in the system a suitable error message is provided.
@@ -161,7 +162,7 @@ complexity. The linear O(n) means that by inserting n numbers into the new tree
 it is (1+2+3+.....+n-1) operations making the worst case time complexity of the 
 new tree O(n^2). In order to print the top 10 from the new tree a I made a modification 
 to the in-order-traversal algorithm which visits the right node first. The new algorithm has a worst case time 
-complexity of O(n). Although the worst case time efficiency is not the best, I felt this 
+complexity of O(n). Although the worst case time efficiency is not the best, however, I felt this 
 was the most suitable algorithm for the purpose. On a real life system, where the latest 
 insertions and counts of the program are put into memory the tree would take much less time to sort.
 
