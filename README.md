@@ -12,18 +12,18 @@ copy of the same movie. When a member borrows a movie DVD the DVD is added to th
 account. It is assumed that all members names and movie titles are unique. 
 
 ## Development 
-###1) Movie DVDs
+### 1) Movie DVDs
 * A class called 'Movie' was implemented where each DVD is an object of the class Movie. 
 * A class called 'MovieCollection' was implemented to represent and sort through the DVDs. 
 * MovieCollection uses a binary search tree to store and traverse through the DVDs.
 
-###2) Members 
+### 2) Members 
 * A class called Member was implemented where each member is represented by an object of the class Member. 
 * A class called 'MemberCollection' was implemented to represent and sort through the DVDs. 
 * MemberCollection uses an array to store its members.
 
 ## Functionality 
-####1) Login 
+#### 1) Login 
 The application was created for both staff and registered members. Upon start-up the user is 
 presented with a main menu. To start up the community library run the main method inside the MenuHandler class. 
 The opening page is presented below: 
