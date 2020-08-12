@@ -169,7 +169,7 @@ insertions and counts of the program are put into memory the tree would take muc
 
 
 ## Author and Acknowledgement 
-The program was written by myself, Cecil Hammett (chammett7) for a major assignment in my Algorithms and Complexity unit
+The program was written for a major assignment in my Algorithms and Complexity unit
 at Queensland University of Technology. The unit took place in semester 1, 2020. Thank you cab301 teaching team for providing 
 me with this assignment. MovieDVD was a fantastic way to utilize and learn binary search trees. 
 
